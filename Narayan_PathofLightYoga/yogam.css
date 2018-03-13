@@ -1,0 +1,132 @@
+
+body { background-color: #3F2860 ; 
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif; }
+
+header{    background-color: #9BC1C2;
+        line-height: 200%;
+         background-image: url(images/lilyheader.jpg);
+     background-position: right;
+     background-repeat: no-repeat;
+     height: 120px; }
+
+h1 {padding-top: 50px;
+  padding-left: 20px; }
+
+nav{
+  font-weight: bold;
+    text-align:center;
+    float: left;
+        width: 160px;
+padding: 15px;
+
+  }
+.error{
+color:red
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+nav ul li a {
+    display: block;
+    font-weight: bold;
+    font-size:95%;
+    text-decoration: none;
+    padding: 16px;
+    text-align: center;
+    border: 4px outset #CCCCCC;
+    margin-bottom: 15px; 
+}
+nav a:link { color: #3F2860;}
+nav a:visited { color: #497777;}
+nav a:hover { color: #A26100;}
+
+label { float: left;
+    text-align: right;
+        font-weight: bold;
+    width: 150px;
+    padding-right: 15px;
+    display: block;}
+    
+input{ margin-bottom: 20px;
+         display: inline-block;
+        }
+      span,textarea{
+               display: inline-block;
+  
+      }
+
+#Submit { margin-left: 175px;}
+
+form {padding: 50px;
+width:800px;
+}
+main { margin-left: 170px;
+       padding-top: 1em;
+     padding-right: 2em;
+     display: block; }
+table { margin-left: auto;
+      margin-right: auto;  
+      margin-bottom: 1em; 
+      width: 60%;
+      border: 1px solid #3F2860;
+      border-collapse: collapse;
+     }
+
+td, th  { border: 1px solid #3F2860;
+      padding: 5px; }
+
+tr:nth-of-type(even) {background-color: #9BC1C2;}
+ 
+caption { margin: 1em;
+      font-weight: bold;
+      font-size: 120%;}   
+       
+.ar{
+  margin-left: 170px;
+        padding-right: 30px;
+       padding-top: 15px;
+     text-align: left;
+     display: block;
+}
+
+
+#yogaclass{
+    text-align: left;
+    float: left;
+    color: #3F2860;    
+
+}
+.clr { clear: both;}
+
+.float_left { float: left;
+       margin-right: 25px; } 
+
+.float_center {
+  float: right;
+  position: relative;
+  left: 100%; /* or right 50% */
+  text-align: left;
+}
+.lefty{
+  float: left;
+  padding: 5px;
+}
+#wrapper{ background-color: #F5F5F5 ;
+        width: 80%;
+margin: 0 auto;
+}
+
+footer{
+  background-color: #9BC1C2;
+     font-style: italic;
+     text-align: center;
+     font-size: small;
+     margin-bottom: auto;
+     padding: 15px; 
+
+}
+  
